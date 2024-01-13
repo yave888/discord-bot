@@ -1,9 +1,9 @@
 from discord.ext import commands
 import discord
 import config
-from random_commands import roll_dice, pon  # 新しいコマンドをインポート
-from help_command import custom_help  # 新しいコマンドをインポート
-from timer_commands import start_timer, end_timer, pause_timer, check_time  # 新しいコマンドをインポート
+from random_commands import roll_dice, pon
+from help_command import custom_help
+from timer_commands import start_timer, end_timer, pause_timer, check_time
 from auto_response import on_message_auto_response
 
 
