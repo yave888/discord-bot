@@ -21,20 +21,11 @@
 
     TOKEN = "Your-Bot-Token-Here"
     ```
-3. `gitignore` ファイルに `config.py` を追加し、トークンを安全に保護します。
-    ```
-    # .gitignore
-
-    config.py
-    ```
-4. Bot の実行には Python 3.x が必要です。以下のコマンドで依存関係をインストールします。
-    ```bash
-    pip install -r requirements.txt
-    ```
-5. `main.py` を実行して Bot を起動します。
+3. `main.py` を実行して Bot を起動します。
     ```bash
     python main.py
     ```
-6. Bot は Discord 上で指定したコマンドに反応し、機能を提供します。
+4. Bot は Discord 上で指定したコマンドに反応し、機能を提供します。
 
 **注意:** プロジェクトには `.gitignore` が含まれています。`.gitignore` ファイルは `config.py` を Git リポジトリに含めないようにしています。トークンが漏洩しないように十分に注意してください。
+** Bot の実行には Python 3.x 環境が必要です。
