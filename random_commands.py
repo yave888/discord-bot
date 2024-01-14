@@ -5,9 +5,11 @@ import random
     name="dice",
     aliases=["roll"]
 )
-async def roll_dice(ctx: commands.Context):
-    answer = ["1", "2", "3", "4", "5", "6"]
-    choice = random.choice(answer)
+async def roll_dice(ctx: commands.Context, sides: int):
+    # ダイスの目をランダムに選ぶ
+    choice = random.randint(1, sides)
+    
+    # 結果をメッセージとして送信
     await ctx.send(f"出た目: {choice}")
 
 @commands.command(name="pon")
